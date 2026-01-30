@@ -44,7 +44,7 @@ pyinstaller - For creating standalone executable
 🛠️ Building the Executable
 To create a standalone .exe file:
 Windows:
-bashpyinstaller --onefile --windowed --add-data "models;models" --collect-all sklearn --collect-all mediapipe --name "SignLanguageRecognition" Practice.py
+bashpyinstaller --onefile --windowed --add-data "models;models" --collect-all sklearn --collect-all mediapipe --name "SignLanguageRecognition" scripts/Practice.py
 Linux/Mac:
 bashpyinstaller --onefile --windowed --add-data "models:models" --collect-all sklearn --collect-all mediapipe --name "SignLanguageRecognition" Practice.py
 The executable will be created in the dist folder.
