@@ -48,24 +48,7 @@ bashpyinstaller --onefile --windowed --add-data "models;models" --collect-all sk
 Linux/Mac:
 bashpyinstaller --onefile --windowed --add-data "models:models" --collect-all sklearn --collect-all mediapipe --name "SignLanguageRecognition" Practice.py
 The executable will be created in the dist folder.
-📁 Project Structure
-BLOCK-B-SIGNLANGUAGE/
-├── data/
-│   ├── processed/          # Processed training data
-│   └── raw/               # Raw image data
-├── models/
-│   └── sign_model_rf.pkl  # Trained Random Forest model
-├── scripts/
-│   ├── Capture.py         # Data capture script
-│   ├── Practice.py        # Main recognition application
-│   ├── Recognition.py     # Recognition utilities
-│   └── Train.py           # Model training script
-├── utils/
-│   ├── count.py           # Utility functions
-│   ├── Landmarks.py       # Hand landmark processing
-│   └── retake.py          # Data retake utilities
-├── requirements.txt       # Python dependencies
-└── README.md             # This file
+
 💡 How It Works
 
 Hand Detection: MediaPipe detects hand landmarks (21 points) in real-time
